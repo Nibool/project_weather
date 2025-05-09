@@ -1,0 +1,45 @@
+.auth-header {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .auth-header-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .user-email {
+    font-size: 0.875rem;
+    color: var(--text-light);
+  }
+  
+  .logout-button {
+    background: none;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline;
+  }
+  
+  .auth-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .auth-link {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .auth-link:hover {
+    color: var(--primary);
+  }
